@@ -1,0 +1,11 @@
+The FizzBuzz problem
+Send Feedback
+Draw the flowchart that prints the numbers from 1 to 100 and follow the conditions given below:
+
+a. for multiples of ‘3’ print “Fizz” instead of the number
+b. for the multiples of ‘5’ print “Buzz” instead of the number
+c. for multiple of both '3' and '5' print "FizzBuzz"
+d. if none of the above condition is true, print the number.
+
+Draw a flowchart for this process
+Note : You don't need to submit the problem. Just attempt in your notebook and ask doubts if you need help.
