@@ -1,0 +1,72 @@
+Q.1>>>Simple Interest
+Send Feedback
+Given the ‘Principal Amount’ ‘P’, ‘Rate Per Annum’ ‘R’, and ‘Time Duration’ ‘T’(in years), write a program to calculate the simple interest.
+The formula for simple interest is ‘Simple Interest’ = (P * R * T) / 100. Your answer should have the precision to 2 decimal places.
+Give your answer to 2 decimal places.
+Example:
+Input: ‘P’ = 2000, ‘R’ = 20, ‘T’ = 2
+
+Output: 800
+
+Explanation: Simple Interest when ‘P = 2000, 'R' = 20, and 'T' = 2 is 800.
+Input Format
+First-line contains 'TEST', denoting the number of Test cases.
+
+For each Test case:
+
+The first and only line contains three integers, ‘P’, 'R', and 'T', denoting the
+‘Principal Amount’, ‘Rate Per Annum’, and ‘Time Duration’, respectively.
+Output format:
+Return the Simple Interest.
+Note:-
+You don't need to print anything. Just implement the given function.
+Constraints:
+1 <= TEST <= 10
+1 <= R <= 100
+1 <= P, T <= 1e3
+
+Time Limit: 1 sec
+Sample Input 1:
+2
+2000 20 2
+5000 5 2
+Sample Output 1:
+800
+500
+Explanation Of Sample Input 1:
+For test case 1:
+
+Input: ‘P’ = 2000, 'R' = 20, 'T' = 2
+
+Output: 800
+
+Explanation: Simple Interest when ‘P = 2000, 'R' = 20, and 'T' = 2 is 800.
+
+For test case 2:
+
+Input: ‘P’ = 5000, 'R' = 5, 'T' = 2
+
+Output: 500
+
+Explanation: Simple Interest when ‘P = 5000, 'R' = 5, and 'T' = 2 is 500.
+Sample Input 2:
+2
+100 1 10
+1000 100 1000
+Sample Output 2:
+10
+1000000
+
+
+public class Solution {
+    public static double calculateSimpleInterest(int p, int r, int t) {
+
+        double Simple=(p*r*t)/100.00;
+        
+        return Simple;
+        
+    
+
+        // Write your code here
+    }
+}
